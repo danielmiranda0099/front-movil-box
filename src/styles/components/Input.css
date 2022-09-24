@@ -1,0 +1,10 @@
+
+
+.input-custom{
+    border-radius: 5px;
+    padding: 7px;
+}
+
+option.input-custom-select-default{
+    color: red;
+}

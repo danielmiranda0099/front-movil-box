@@ -1,0 +1,16 @@
+
+.filter-user-container{
+    width: 80%;
+    background-color: #fffeff;
+    border-radius: 7px;
+    padding: 15px;
+    margin: 20px 0px;
+}
+
+.filter-user-head{
+    justify-content: space-between;
+}
+.filter-user-input-container{
+    grid-gap: 15px;
+    grid-template-columns: repeat(2, 1fr);
+}

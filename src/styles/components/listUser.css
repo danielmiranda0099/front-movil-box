@@ -1,0 +1,23 @@
+.list-user-container{
+    width: 80%;
+    background-color: #fffeff;
+    border-radius: 7px;
+    padding: 15px;
+    margin: 20px 0px;
+}
+
+.list-user-head{
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e5e7e8;
+}
+.list-user-head-button > *{
+    margin: 0px 7px;
+}
+
+.list-user-filter{
+    margin: 15px 0px;
+    justify-content: space-between;
+}

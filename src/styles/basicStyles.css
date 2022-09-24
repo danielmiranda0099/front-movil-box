@@ -1,0 +1,47 @@
+
+.w-100{
+    width: 100%;
+}
+.h-100{
+    min-height: 100vh;
+}
+
+
+.flex{
+    display: flex;
+}
+.flex-1{
+    flex-grow: 1;
+    flex: 1;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.grid{
+    display: grid;
+}
+
+.cent-cent{
+    justify-content: center;
+    align-items: center;
+}
+.cent{
+    justify-content: center;
+}
+.cent-item{
+    align-items: center;
+}
+
+.relative{
+    position: relative;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.hidden{
+    overflow: hidden;
+}

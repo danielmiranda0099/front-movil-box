@@ -1,0 +1,118 @@
+
+.table-custom {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    table-layout: fixed;
+}
+
+.table-custom th,
+.table-custom  td {
+    padding: .625em;
+    text-align: left;
+}
+  
+.table-custom th {
+    font-size: .85em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    background-color: #576574ff;
+    color: white;
+}
+.table-custom tr {
+    padding: .35em;
+}
+  
+
+.table-custom tr:nth-child(even){
+    background-color: #E5E7E8ff;
+}
+
+.table-custom .button-primary {
+    color: white;
+    border: 3px solid #F23838;
+    background-color: inherit;
+}
+.table-custom .button-primary:hover{
+    background-color: #F23838;
+}
+
+.table-action{
+}
+.table-action-menu{
+    position: absolute;
+    bottom: -100%;
+    left: 50%;
+    z-index: 10;
+    background-color: white;
+    border: 1px solid;
+}
+.table-action-menu-item{
+    padding: 5px 7px;
+    cursor: pointer;
+}
+
+
+
+
+
+@media (max-width: 820px) {
+.table-custom {
+    border: 0;
+}
+
+.table-custom caption {
+    font-size: 1.3em;
+}
+
+.table-custom thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.table-custom tr {
+    border: 3px solid rgb(221, 221, 221);
+    display: block;
+    margin-bottom: .625em;
+}
+
+.table-custom td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: .8em;
+    text-align: right;
+}
+
+.table-custom td::before {
+    /*
+    * aria-label has no advantage, it won't be read inside a table
+    content: attr(aria-label);
+    */
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.table-custom td:last-child {
+    border-bottom: 0;
+}
+
+.table-custom .button-primary {
+    width: 60%;
+}
+
+}
+
+@media (max-width: 520px) {
+    .table-custom .button-primary {
+        width: 95%;
+    }
+}

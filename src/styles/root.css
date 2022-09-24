@@ -1,0 +1,13 @@
+
+@import "./normalize.css";
+@import "./basicStyles.css";
+
+@import "./views/app.css";
+
+@import "./components/button.css";
+@import "./components/Input.css";
+@import "./components/table.css";
+@import "./components/modal.css";
+
+@import "./components/filterUser.css";
+@import "./components/listUser.css";
